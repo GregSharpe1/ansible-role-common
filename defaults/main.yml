@@ -6,6 +6,7 @@ common_debian_packages:
   - ncdu
 
 common_rhel_packages:
+  - epel-release
 
 common_packages:
   - vim

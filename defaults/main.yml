@@ -1,6 +1,10 @@
 ---
 # defaults file for ansible-role-common
 
-common_debian_packages: 
+common_debian_packages:
   - tmux
   - ncdu
+
+common_rhel_packages:
+  - yum
+  - htop

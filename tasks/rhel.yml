@@ -1,0 +1,13 @@
+---
+
+- name: Install EPEL on Rhel systems
+  package:
+    name: epel-release
+    state: present
+
+- name: Install common Rhel packages
+  package:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - "{{ common_rhel_packages }}"

@@ -6,5 +6,10 @@ common_debian_packages:
   - ncdu
 
 common_rhel_packages:
-  - yum
+  - vim
   - htop
+
+common_packages:
+  - vim
+  - htop
+
